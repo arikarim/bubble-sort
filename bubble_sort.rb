@@ -15,4 +15,4 @@ def bubble_sort(array)
   array
 end
 
-puts bubble_sort(array).to_a
+bubble_sort(array).to_a

@@ -1,14 +1,11 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 # bubble-sort
-
+  This is a bubble sort project which sorts an array of both integers and words[strings], without using  the Sort() method.
 
 ## Built with
 
 - Ruby
-
-## Live Demo
-
 
 
 ### Prerequisites

@@ -12,4 +12,3 @@ end
 sorted_array = bubble_sort_by(%w[norway hi hello hey]) do |left, right|
   left.length - right.length
 end
-puts sorted_array
