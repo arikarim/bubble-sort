@@ -2,12 +2,9 @@
 def bubble_sort_by(array)
   array.length.times do
     (array.length - 1).times do |i|
-      if yield(array[i], array[i + 1]).positive?
+      break unless yield(array[i], array[i + 1]).positive?
         array[i], array[i + 1] = array[i + 1], array[i]
-      else
-        break
       end
-    end
   end
   array
 end
