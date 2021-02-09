@@ -9,7 +9,7 @@
 
 
 ### Prerequisites
-
+- Ruby
 - basic knownledge of command line
 - Command line interface
 
@@ -19,9 +19,6 @@
 - cd repo-folder
 - Run using Ruby bubble_sort.rb for first file and ruby bubble_sort_by for second file
 
-### Install
-
-- Ruby
 
 ## Authors
 
