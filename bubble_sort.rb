@@ -9,6 +9,7 @@ def bubble_sort(array)
       if array[i + 1]
         if v > array[i + 1]
           array[i], array[i + 1] = array[i + 1], array[i]
+        else
           next
         end
       end
