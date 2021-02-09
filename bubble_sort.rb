@@ -7,11 +7,8 @@ def bubble_sort(array)
   array.length.times do
     array.each_with_index do |v, i|
       if array[i + 1]
-        if v > array[i + 1]
+        next unless v > array[i + 1]
           array[i], array[i + 1] = array[i + 1], array[i]
-        else
-          next
-        end
       end
     end
   end
