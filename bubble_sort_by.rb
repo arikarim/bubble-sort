@@ -5,7 +5,7 @@ def bubble_sort_by(array)
       if yield(array[i], array[i + 1]).positive?
         array[i], array[i + 1] = array[i + 1], array[i]
       else
-        array[i], array[i + 1] = array[i], array[i + 1]
+        break
       end
     end
   end
