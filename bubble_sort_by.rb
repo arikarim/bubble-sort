@@ -9,6 +9,6 @@ def bubble_sort_by(array)
   end
   array
 end
-sorted_array = bubble_sort_by(%w[norway hi hello hey]) do |left, right|
+bubble_sort_by(%w[norway hi hello hey]) do |left, right|
   left.length - right.length
 end
